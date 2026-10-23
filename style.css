@@ -1,0 +1,69 @@
+
+header h1 {
+    font-family: 'Cinzel', serif;
+    color: #e0b8ff;
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 2px;
+    text-shadow: 0 0 18px rgba(200, 182, 255, 0.35);
+}
+
+h2 {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    color: #c8b6ff;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.card h3 {
+    font-family: 'Cinzel', serif;
+    margin-bottom: 12px;
+    font-size: 1.15rem;
+    font-weight: 700;
+}
+
+.secao-escura h2 {
+    color: #f5b8d2;
+}
+
+.vitoria h3 {
+    font-family: 'Cinzel', serif;
+    color: #d2aaff;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+/* Fonte nova para todos os títulos */
+header h1,
+h2,
+.card h3,
+.vitoria h3 {
+    font-family: 'Cinzel', serif !important;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Título principal */
+header h1 {
+    font-family: 'Orbitron', sans-serif !important;
+    color: #e0b8ff;
+    text-shadow: 0 0 18px rgba(200, 182, 255, 0.5);
+}
+
+/* Títulos das seções */
+h2 {
+    color: #c8b6ff;
+}
+
+/* Títulos dos cards */
+.card h3 {
+    color: #30243c;
+}
+
+/* Título da vitória */
+.vitoria h3 {
+    color: #d2aaff;
+}
